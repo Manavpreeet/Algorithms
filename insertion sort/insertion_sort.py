@@ -11,6 +11,7 @@ def insertion_sort(list):
     
 def main():
     list = []
+    
 
     n = int(input("Enter number of elements: "))
 

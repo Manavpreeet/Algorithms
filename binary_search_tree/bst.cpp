@@ -67,7 +67,7 @@ void postorderTraversal(node* root){
 
 void preorderTraversal(node* root){
 
-    if(root){
+    if(root){ 
         cout << root->data << endl;
         preorderTraversal(root->left);
         preorderTraversal(root->right);
